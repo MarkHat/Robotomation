@@ -1,0 +1,9 @@
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Robotomation.exe
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Robotomation.pdb
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\obj\x86\Debug\Robotomation.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\obj\x86\Debug\Robotomation.exe
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\obj\x86\Debug\Robotomation.pdb
+c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Dialogue.xnb
+C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Box2DX.pdb
+C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1.xnb
