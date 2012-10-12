@@ -28,7 +28,7 @@ namespace Robotomation
             tileSheet = contentManager.Load<Texture2D>(level.Name);
             tileIndices = new int[widthInTiles * heightInTiles];
 
-            StreamReader fileReader = File.OpenText("Levels/" + level.Name + ".txt");
+            StreamReader fileReader = File.OpenText("Levels/" + level.Name + "_tiles.txt");
             String line = "";
 
             // note: no error checking is done here, so make sure the text file is correct

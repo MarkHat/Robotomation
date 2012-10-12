@@ -61,7 +61,7 @@ namespace Robotomation
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Backgrounds.BackColor);
 
             spriteBatch.Begin();
             Tiling.DrawTiles(spriteBatch);
