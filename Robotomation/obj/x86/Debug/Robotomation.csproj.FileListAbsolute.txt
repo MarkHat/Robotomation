@@ -7,3 +7,6 @@ c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Ro
 c:\users\mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Dialogue.xnb
 C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Box2DX.pdb
 C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1.xnb
+C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_1.xnb
+C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_2.xnb
+C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_3.xnb

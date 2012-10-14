@@ -19,8 +19,6 @@ namespace Robotomation
         public const int SCREEN_WIDTH = 800;
         public const int SCREEN_HEIGHT = 500;
 
-        Level level;
-
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -39,10 +37,10 @@ namespace Robotomation
 
         protected override void LoadContent()
         {
-            level = new Level("Level1", 31, 31);
-            Tiling.LoadTiles(Content, level);
-            Backgrounds.LoadBackgrounds(Content, level);
-            Camera.Reinitialize(level);
+            Levels.LoadLevels(Content);
+            Tiling.ReloadTiles(Content);
+            Backgrounds.ReloadBackgrounds(Content);
+            Camera.Reinitialize();
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
         }
@@ -64,7 +62,13 @@ namespace Robotomation
             GraphicsDevice.Clear(Backgrounds.BackColor);
 
             spriteBatch.Begin();
+
+            Backgrounds.DrawBackground(spriteBatch, 3);
+            Backgrounds.DrawBackground(spriteBatch, 2);
+            Backgrounds.DrawBackground(spriteBatch, 1);
             Tiling.DrawTiles(spriteBatch);
+            //Backgrounds.DrawBackground(spriteBatch, 0);
+
             spriteBatch.End();
 
             base.Draw(gameTime);

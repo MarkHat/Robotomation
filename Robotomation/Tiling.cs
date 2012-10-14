@@ -19,8 +19,10 @@ namespace Robotomation
         static int widthInTiles;
         static int heightInTiles;
 
-        public static void LoadTiles(ContentManager contentManager, Level level)
+        public static void ReloadTiles(ContentManager contentManager)
         {
+            Level level = Levels.CurrentLevel;
+
             widthInTiles = level.WidthInTiles;
             heightInTiles = level.HeightInTiles;
 

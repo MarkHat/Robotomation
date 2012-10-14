@@ -1,2 +1,5 @@
 Content\Dialogue.xnb
 Content\Level1.xnb
+Content\Level1_parallax_1.xnb
+Content\Level1_parallax_2.xnb
+Content\Level1_parallax_3.xnb

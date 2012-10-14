@@ -19,6 +19,33 @@
       <Output>C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1.xnb</Output>
       <Time>2012-10-05T18:39:53.2583975-05:00</Time>
     </Item>
+    <Item>
+      <Source>Level1_parallax_1.png</Source>
+      <Name>Level1_parallax_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_1.xnb</Output>
+      <Time>2012-10-13T18:04:54.3292066-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1_parallax_2.png</Source>
+      <Name>Level1_parallax_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_2.xnb</Output>
+      <Time>2012-10-13T18:04:56.8863529-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level1_parallax_3.png</Source>
+      <Name>Level1_parallax_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mark\documents\visual studio 2010\Projects\Robotomation\Robotomation\Robotomation\bin\x86\Debug\Content\Level1_parallax_3.xnb</Output>
+      <Time>2012-10-13T18:04:59.1444821-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

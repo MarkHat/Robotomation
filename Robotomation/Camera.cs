@@ -9,6 +9,8 @@ namespace Robotomation
 {
     class Camera
     {
+        const int CAMERA_SPEED = 3;
+
         static Vector2 position;
         static Vector2 velocity;
         static int tileIndex;
@@ -17,8 +19,10 @@ namespace Robotomation
         static int levelWidth;
         static int levelHeight;
 
-        public static void Reinitialize(Level level)
+        public static void Reinitialize()
         {
+            Level level = Levels.CurrentLevel;
+
             position = Vector2.Zero;
             velocity = Vector2.Zero;
             tileIndex = 0;
@@ -42,11 +46,11 @@ namespace Robotomation
         {
             if (keyboardState.IsKeyDown(Keys.Left) && !keyboardState.IsKeyDown(Keys.Right))
             {
-                velocity.X = -1;
+                velocity.X = -CAMERA_SPEED;
             }
             else if (!keyboardState.IsKeyDown(Keys.Left) && keyboardState.IsKeyDown(Keys.Right))
             {
-                velocity.X = 1;
+                velocity.X = CAMERA_SPEED;
             }
             else
             {
@@ -55,11 +59,11 @@ namespace Robotomation
 
             if (keyboardState.IsKeyDown(Keys.Up) && !keyboardState.IsKeyDown(Keys.Down))
             {
-                velocity.Y = -1;
+                velocity.Y = -CAMERA_SPEED;
             }
             else if (!keyboardState.IsKeyDown(Keys.Up) && keyboardState.IsKeyDown(Keys.Down))
             {
-                velocity.Y = 1;
+                velocity.Y = CAMERA_SPEED;
             }
             else
             {
